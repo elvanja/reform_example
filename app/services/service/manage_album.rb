@@ -1,3 +1,4 @@
+# deprecated, code now in controllers/albums_controller.rb
 module Service
   class ManageAlbum
     def store(album)

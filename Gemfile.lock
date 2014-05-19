@@ -1,8 +1,8 @@
 GIT
   remote: git@github.com:apotonick/reform.git
-  revision: c4f392210fa7d8c63ff9fd136e2db30e26148082
+  revision: 0a46656d47e779d50199a225182d7de5a1ef8bea
   specs:
-    reform (0.2.7)
+    reform (1.0.0)
       activemodel
       disposable (~> 0.0.3)
       representable (~> 1.8.1)
@@ -67,11 +67,11 @@ GEM
       treetop (~> 1.4.8)
     method_source (0.8.2)
     mime-types (1.25.1)
-    mini_portile (0.5.3)
+    mini_portile (0.6.0)
     minitest (4.7.5)
-    multi_json (1.9.3)
-    nokogiri (1.6.1)
-      mini_portile (~> 0.5.0)
+    multi_json (1.10.0)
+    nokogiri (1.6.2.1)
+      mini_portile (= 0.6.0)
     polyglot (0.3.4)
     pry (0.9.12.6)
       coderay (~> 1.0)
@@ -93,10 +93,10 @@ GEM
       activesupport (= 4.0.4)
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
-    rake (10.3.1)
+    rake (10.3.2)
     rdoc (4.1.1)
       json (~> 1.4)
-    representable (1.8.1)
+    representable (1.8.2)
       multi_json
       nokogiri
       uber
@@ -127,7 +127,7 @@ GEM
       polyglot
       polyglot (>= 0.3.1)
     tzinfo (0.3.39)
-    uber (0.0.4)
+    uber (0.0.6)
     uglifier (2.5.0)
       execjs (>= 0.3.0)
       json (>= 1.8.0)

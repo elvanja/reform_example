@@ -1,3 +1,4 @@
+# deprecated, code now in controllers/albums_controller.rb
 module Workflows
   class AlbumWorkflow
     attr_reader :form, :params
